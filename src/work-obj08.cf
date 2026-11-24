@@ -1,0 +1,13 @@
+v 4
+file . "alu.vhd" "5f7f91fcf9114b3c0f01bbe933d5968b8b59e214" "20261124032837.452":
+  entity alu at 1( 0) + 0 on 19;
+  architecture behavioral of alu at 14( 424) + 0 on 20;
+file . "cpu.vhd" "cd47730a02c5cfb8b0ef41b4811de36709827f57" "20261124032837.471":
+  entity cpu at 1( 0) + 0 on 21;
+  architecture behavioral of cpu at 15( 505) + 0 on 22;
+file . "tb_alu.vhd" "ad18ab6d0815559424b994e3324480a12a782acb" "20261124032837.478":
+  entity tb_alu at 1( 0) + 0 on 23;
+  architecture sim of tb_alu at 7( 106) + 0 on 24;
+file . "tb_cpu.vhd" "97a5611a20a3d049cd4b355d1cf1905fedffd322" "20261124032837.485":
+  entity tb_cpu at 1( 0) + 0 on 25;
+  architecture sim of tb_cpu at 7( 106) + 0 on 26;
